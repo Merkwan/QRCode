@@ -1,0 +1,56 @@
+/*base css*/
+.jumbotron_test{
+	text-shadow: 0px 1px 3px rgba(24, 222, 11, 0.4), 0px 0px 30px rgba(20, 82, 198, 0.58);
+	background: url(../img/xiaolangdi.png) center ;/*linear-gradient(45deg, rgb(62, 164, 168) 0px, rgb(11, 29, 147) 100%) repeat scroll 0% 0% transparent;*/
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2) inset, 0px -3px 7px rgba(0, 0, 0, 0.2) inset;
+	color: #ffffff;
+}
+.jumbotron_manager{
+	text-shadow: 0px 1px 3px rgba(24, 222, 11, 0.4), 0px 0px 30px rgba(20, 82, 198, 0.58);
+	background: url(../img/manager.png) center ;/*linear-gradient(45deg, rgb(62, 164, 168) 0px, rgb(11, 29, 147) 100%) repeat scroll 0% 0% transparent;*/
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2) inset, 0px -3px 7px rgba(0, 0, 0, 0.2) inset;
+	color: #ffffff;
+}
+.jumbotron_teacher{
+	text-shadow: 0px 1px 3px rgba(24, 222, 11, 0.4), 0px 0px 30px rgba(20, 82, 198, 0.58);
+	background: url(../img/teacher.png) center ;/*linear-gradient(45deg, rgb(62, 164, 168) 0px, rgb(11, 29, 147) 100%) repeat scroll 0% 0% transparent;*/
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2) inset, 0px -3px 7px rgba(0, 0, 0, 0.2) inset;
+	color: #100f0f;
+}
+.dhtmlx_message_area{
+	z-index:9999;
+}
+.divcss5{ width:600px; height:200px}
+body{
+	background-color: #ffffff;
+}
+input{
+	margin:0;
+	padding:0;
+}
+/*login css*/
+#time_show{
+	display:inline-block;
+	margin-top:15px;
+}
+#con_table{
+	height:250px;
+}
+#table1,#table2,#table3,#table4{
+	background-color: #f5f5f5;
+}
+footer>div{
+	 padding:20px 0;
+	 background-color: #e7e7e7;
+	 border-top:solid 1px #ccc;
+	 border-bottom:solid 1px #ccc;
+}
+/*teacher css*/
+#teacher_con{
+	background-color: white; 
+	padding-top: 20px;
+}
+/*studentAdd css*/
+.badge{
+	background-color: rgb(255, 119, 119);
+}

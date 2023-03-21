@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    text-align: center;
+    margin-top: 200px;
+}
+table{
+    background-color: #f0f8ff;
+    width: 300px;
+    height: 80px;
+    border-collapse: collapse;
+    margin:auto;
+}
+table tr td{
+    font-size: 30px;
+}
+body{
+    background-image: url("http://www.txjava.cn:80/qr_check/img/school.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#login{
+    margin-top: 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 40px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 50px;
+    z-index: 1;
+}
+#login::before{
+    content:"";
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    top:-5px;
+    bottom: -5px;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 50px;
+    filter: blur(20px);
+    z-index: -1;
+}
+#login:hover{
+    animation: animate 8s infinite;
+}
+#login:hover::before{
+    animation: animate 8s infinite;
+}
+@keyframes animate {
+    100%{
+        background-position: -400% 0;
+    }
+}
+.input{
+    width: 150px;
+    height: 30px;
+}

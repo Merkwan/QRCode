@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>qr_check</display-name>
+  <servlet>
+    <servlet-name>GetStudentQJRecordServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.GetStudentQJRecordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateStudentPassWordServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.UpdateStudentPassWordServlet</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <servlet-name>ManagerLoginServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.ManagerLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddClassServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.AddClassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetClassInfoServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.GetClassInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTeacherDataServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.GetTeacherDataServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTeacherServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.AddTeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTeacherClassServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.GetTeacherClassServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.AddStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+<!--    <description>This is the description of my J2EE component</description>-->
+<!--    <display-name>This is the display name of my J2EE component</display-name>-->
+    <servlet-name>StudentLoginServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.StudentLoginServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestDeleteCookie</servlet-name>
+    <servlet-class>com.hhuQd.servlet.TestDeleteCookie</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetStudentQDRecordServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.GetStudentQDRecordServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetClassTeacherDataServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.GetClassTeacherDataServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddSQQJServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.AddSQQJServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetClassQJRecordServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.GetClassQJRecordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateQJStateServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.UpdateQJStateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>GetClassStuCountServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.GetClassStuCountServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>AddStartTimeServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.AddStartTimeServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>GetStudentQJRecordServlet</servlet-name>
+    <url-pattern>/servlet/GetStudentQJRecordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateStudentPassWordServlet</servlet-name>
+    <url-pattern>/servlet/UpdateStudentPassWordServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+    <servlet-name>ManagerLoginServlet</servlet-name>
+    <url-pattern>/servlet/ManagerLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddClassServlet</servlet-name>
+    <url-pattern>/servlet/AddClassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetClassInfoServlet</servlet-name>
+    <url-pattern>/servlet/GetClassInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTeacherDataServlet</servlet-name>
+    <url-pattern>/servlet/GetTeacherDataServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTeacherServlet</servlet-name>
+    <url-pattern>/servlet/AddTeacherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTeacherClassServlet</servlet-name>
+    <url-pattern>/servlet/GetTeacherClassServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <url-pattern>/servlet/AddStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentLoginServlet</servlet-name>
+    <url-pattern>/StudentLoginServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+    <servlet-name>TestDeleteCookie</servlet-name>
+    <url-pattern>/servlet/TestDeleteCookie</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetStudentQDRecordServlet</servlet-name>
+    <url-pattern>/servlet/GetStudentQDRecordServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>GetClassTeacherDataServlet</servlet-name>
+    <url-pattern>/servlet/GetClassTeacherDataServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddSQQJServlet</servlet-name>
+    <url-pattern>/servlet/AddSQQJServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetClassQJRecordServlet</servlet-name>
+    <url-pattern>/servlet/GetClassQJRecordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateQJStateServlet</servlet-name>
+    <url-pattern>/servlet/UpdateQJStateServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>GetClassStuCountServlet</servlet-name>
+    <url-pattern>/servlet/GetClassStuCountServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AddStartTimeServlet</servlet-name>
+    <url-pattern>/servlet/AddStartTimeServlet</url-pattern>
+  </servlet-mapping>
+  
+
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>Post_SigninServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.Post_SigninServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Scan_QrServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.Scan_QrServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowSignedServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.ShowSignedServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowQingJiaServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.ShowQingJiaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TeacherLogInServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.TeacherLogInServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TeacherInfoServlet</servlet-name>
+    <servlet-class>com.hhuQd.servlet.TeacherInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Post_SigninServlet</servlet-name>
+    <url-pattern>/post_signinservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Scan_QrServlet</servlet-name>
+    <url-pattern>/scan_qrservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowSignedServlet</servlet-name>
+    <url-pattern>/showsignedservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowQingJiaServlet</servlet-name>
+    <url-pattern>/showqingjiaservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherLogInServlet</servlet-name>
+    <url-pattern>/teacherloginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherInfoServlet</servlet-name>
+    <url-pattern>/teacherinfoservlet</url-pattern>
+  </servlet-mapping>
+</web-app>

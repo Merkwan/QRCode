@@ -1,0 +1,22 @@
+*{
+    font-size: 30px;
+}
+
+table{
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+    width:1000px ;
+    margin:auto;
+}
+table tr td,table tr th{
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    background-color: #b9f73e;
+}
+.pages{
+    text-align: center;
+}
+textarea{
+    background-color:#b9f73e ;
+}
